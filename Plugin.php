@@ -139,10 +139,10 @@ class Plugin implements PluginInterface
      * 渲染评论地理位置（___location 钩子回调）
      *
      * @param Archive $archive 评论归档对象
-     * @param string|null $template 输出模板
+     * @param string $template 输出模板
      * @return string
      */
-    public static function render($archive, ?string $template = null): string
+    public static function render($archive, string $template): string
     {
         $template = $template ?? '%s';
         $ip = $archive->ip;
