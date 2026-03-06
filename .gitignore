@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+/ipinfo_lite.mmdb
+/vendor/
+/composer.phar
